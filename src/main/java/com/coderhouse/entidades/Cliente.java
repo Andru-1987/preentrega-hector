@@ -72,6 +72,4 @@ public class Cliente {
 		this.esSocio = esSocio;
 	}
 	
-	
-
 }
