@@ -25,22 +25,15 @@ public class Cliente {
 	@Column(name = "Socio")
 	private Boolean esSocio;
 	
-	@OneToMany(mappedBy = "cliente")
-	private List<Cliente> listaDeClientes;
-	
 	
 	public Integer getId_cliente() {
 	return dni;
 		
 	
-	
-	
-		
 		
 	}
 	public Cliente() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	
 	public Cliente(Integer id_cliente, String nombreCliente, String apellidoCliente, Boolean esSocio) {
